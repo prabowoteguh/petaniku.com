@@ -12,7 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloWolrd">
         <activity
-            android:name=".MainActivity"
+            android:name=".SupplyDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SupplyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProdukActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MitraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardOwnerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,6 +35,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
